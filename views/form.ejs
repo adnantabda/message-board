@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="/message" method="POST">
+        <div class="Form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Full name" required>
+            </div>
+            <div>
+                <label for="title">Title</label>
+                <input type="text" name="title" placeholder="message title" required>
+            </div>
+            <div>
+                <label for="description">Message</label>
+                <textarea name="message" name="message" id="textarea" placeholder="drop your message" required></textarea>
+            </div>
+            <div>
+                <label for="date">date</label>
+                <input type="date" name="date" required>
+            </div>
+        <button>submit</button>
+        </div>
+    
+    </form>
+</body>
+</html>
