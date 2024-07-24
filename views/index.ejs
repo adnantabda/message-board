@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Message Board</h1>
+        <div>
+            <button class="add-msg">
+                <a href="/new">Add Message</a>
+            </button>
+        </div>
+        <div class="message-list">
+            <ul>
+                <% for(let i = links.length - 1;  i >= 0 ; i--){ %>
+                   <li class="list">
+                    <!-- <div class="individual-msg"> -->
+                        <h3>Title : 
+                            <span> 
+                                <%= links[i].title %> 
+                            </span>
+                        </h3>
+                        <p>Sender : 
+                            <span class="sender-name"> 
+                                <%= links[i].sender %> 
+                            </span>
+                        </p>
+                        <p class="description">
+                            <%= links[i].message %> 
+                        </p>
+                        <p class="date">  
+                            <%= links[i].date %> 
+                        </p>
+                    <!-- </div> -->
+                    </li>
+                  <% } %>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
