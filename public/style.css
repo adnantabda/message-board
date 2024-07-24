@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    margin-top: 60px;
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 6px;
+}
+
+h3{
+    color: black;
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+li{
+    list-style: none;
+    max-width: 400px;
+}
+
+
+.add-msg{
+    background-color: #111;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.add-msg a{
+    text-decoration: none;
+    color: white;
+}
+
+.message-list{
+    display: flex;
+}
+
+.list{
+    padding: 12px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 8px 8px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: transform 3s ease-in-out linear;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.list:hover{
+    transform: scale(1.02);
+}
+
+.description{
+    color: black;
+    margin-bottom: 18px;
+}
+
+.date{
+    color: blue;
+}
+
+
+.sender-name{
+    color: blue;
+}
