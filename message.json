@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Welcome",
+        "message": "This is a simple and easy-to-use message board. Feel free to post any announcements or updates here for everyone to see. Let's keep the communication open and effective.",
+        "date":  "2024-07-16",
+        "sender": "John Smilg"
+    },
+    {
+        "title": "Meeting Reminder",
+        "message": "Don't forget about the meeting scheduled for tomorrow at 10 AM in the main conference room. We will be discussing the project timelines and assigning new tasks. Your presence is highly appreciated.",
+        "date": "2024-07-16",
+        "sender": "Jane Doe"
+    },
+    {
+        "title": "System Update",
+        "message": "The system will be down for maintenance on Saturday from 2 AM to 6 AM. During this time, you will not be able to access the network or any online services. Please save your work and log off before the maintenance period.",
+        "date": "2024-07-16",
+        "sender": "Admin"
+    },
+    {
+        "title": "Event Announcement",
+        "message": "Join us for the annual company picnic next Friday at Central Park. There will be games, food, and fun activities for everyone. Family members are welcome. Please RSVP by Wednesday so we can finalize the arrangements.",
+        "date": "2024-07-16",
+        "sender": "HR Department"
+    }
+]
